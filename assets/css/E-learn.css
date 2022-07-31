@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hero-txt{
+    color: rgb(83, 139, 243);
+}
+
+.enroll-btn{
+    background: linear-gradient(to right, rgb(65, 97, 201) 20%, rgb(16, 16, 207) 100%);
+    border-radius: 2rem;
+}
+.s-top{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin: 1rem;
+}
+ 
+
+.ext-img-4{
+    position: absolute;
+    background: #edf8f7;
+    border-radius: 10px;
+    top: 260px;
+    width: 140px;
+    height: 100px;
+    z-index: 1;
+}
+.gallery-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sm-txt{
+    z-index: 2;
+   
+}
+.gallery-section img{
+    /* padding-left: 5px; */
+    top: 33px;
+   position: relative;
+   
+}
+
+.img1{
+   left: 1rem;
+}
+
+.img3{
+    right: 1rem;
+}
+
+.img4{
+    right: 2rem;
+}
+/* 
+.img5{
+    right: 2rem;
+} */
+.input-top{
+    border-radius: 2rem;
+}
+.play-btn{
+    background: linear-gradient( rgb(216, 20, 62) 80%, rgb(10, 10, 114) 100%);
+    border-radius: 2rem;
+}
+
+.blue-circle{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+    top: 10%;
+    background: rgb(71, 71, 245);
+}
+.extra-img-1{
+    position: absolute;
+    top: 210px;
+    display: flex;
+    margin-inline-end: auto;
+    margin-left: -rem;
+    border-radius: 1rem;
+}
+.blur{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+    top: 9%;
+    background: rgb(71, 71, 245);
+}
+.btn-blue{
+    border-radius: 2rem;
+}
+.yellow-circle{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 2rem;
+    left: 18%;
+   top: 47px;
+    background: rgb(245, 146, 71);
+}
+.img-card{
+    cursor: pointer;
+}
+.form-email{
+    border-radius: 2rem;
+}
+.green-circle{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 2rem;
+    margin-top: -7rem;
+    position: relative;
+    background: rgb(71, 97, 245);
+}
+.cal-pl{
+    background: crimson;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+.blue-txt{
+    color: rgb(0, 145, 255);
+}
+.bg-orange{
+    background: orangered;
+    border-radius: 5px;
+}
+.bg-blue{
+    background: rgb(0, 153, 255);
+    border-radius: 5px;
+}
+.bg-green{
+    background: rgb(255, 204, 0);
+    border-radius: 5px;
+}
+.circle-c{
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 5rem;
+    top: 240px;
+    bottom: 0;
+    background: rgb(111, 213, 236);
+}
+.extra-img-2{
+    position: absolute;
+    top: 245px; 
+     right: 0;  
+     border-radius: 1rem;
+}
+.grad-1{
+    top: 0;
+}
+.fluid-img{
+    right: 0;
+}
+.ruler-img{
+    top:160px;
+}
+.rule-img{
+    right: 0;
+    bottom: 10px;
+}
+.note-img{
+    right: 0;
+    margin: 1rem;
+}
+.g-1{
+    bottom: 0;
+}
+
+.img-pin{
+    top: 0;
+}
+.colorful-mg{
+    right: 0;
+    bottom: 110px;
+}
+.planet-img{
+    top: 200px;
+}
+.navbar-toggler{
+    box-shadow: unset!important;
+}
+
+.nav-link{
+    display: flex;
+    color: black!important;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.group-img{
+    display: flex;
+    margin-top: -6rem;
+    position: relative;
+    margin-inline-start: auto;
+}
+
+.bad-img{
+    margin-inline-start: auto;
+    margin-top: -47px
+}
+.circle{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+    top: 4rem;
+    background: rgb(194, 194, 194);
+    
+}
+.email-card{
+    border-radius: 1rem;
+}
+.footer-txt{
+    color: white!important;
+    font-weight: lighter;
+  }
+
+.sectionF{
+    background: rgb(1, 1, 43);
+    width: 100%;
+    margin: 0%;
+    padding-top: 1rem;
+    padding: 2rem;
+}
+
+@media(max-width: 678px){
+    
+    /* .group-img{
+        
+    } */
+    .ext-img2{
+        bottom: 200px; 
+    }
+    .ext-img1{
+        top: 160px;
+        width: 30%;
+        right: 70%;
+    }
+    
+    .img-rule{
+        top: 290px;
+    }
+   
+    .p-img{
+        top: 250px;
+        right: 0; 
+    }
+    .green-circle{
+        margin-top: -3px;
+    }
+    .ext-img4{
+        top: 140px;
+        left: 10px;
+    }
+    .ply-btn{
+        margin-top: 3px;
+        display: flex;
+        margin: auto;
+    }
+
+}
